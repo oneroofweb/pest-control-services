@@ -264,6 +264,10 @@
       color: var(--primary-navy);
     }
 
+    .card-title{
+      text-transform: capitalize !important;
+    }
+
     /* ============================================ 
        7. Process Section
     ============================================ */
