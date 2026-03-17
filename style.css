@@ -122,6 +122,28 @@
     }
 
     /* ============================================ 
+       Navbar Logo Styling
+    ============================================ */
+    .navbar-brand {
+      padding-top: 0;
+      padding-bottom: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    .nav-logo {
+      height: 60px; /* Adjust this number to make the logo bigger or smaller */
+      width: auto;
+      object-fit: contain; /* Ensures the image doesn't get stretched/distorted */
+      transition: transform 0.3s ease;
+    }
+
+    /* Optional: Adds a slight zoom effect when hovering over the logo */
+    .nav-logo:hover {
+      transform: scale(1.05);
+    }
+
+    /* ============================================ 
        4. Hero Section
     ============================================ */
     .hero-section {
