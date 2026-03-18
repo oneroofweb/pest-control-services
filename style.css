@@ -691,7 +691,7 @@
 /* Custom red bullet point */
 .about-content-text ul li::before {
   content: "•";
-  color: #e62e2e;
+  color: #157D59;
   font-weight: bold;
   position: absolute;
   left: 0;
